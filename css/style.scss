@@ -87,7 +87,9 @@
             background-color: transparent;
             outline: none;
             box-shadow: none;
-            border: 1px solid rgba(112, 112, 112, 0.23);
+            border: 2px solid $black;
+            padding: 15px 25px;
+            transition: .2s;
         }
         &::placeholder {
             color: $silver;
