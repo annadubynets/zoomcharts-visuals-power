@@ -147,8 +147,6 @@
     
     .company {
         background: linear-gradient(to bottom, $aliceblue 50%, $whitesmoke 50%);
-        
-
         .owl-stage {
             display: flex;
         }
@@ -156,14 +154,12 @@
             display: flex;
             flex: 1 0 auto;
             justify-content: center;
-
             .item {
                 max-width: 100%;
                 max-height: 60px;
                 display: flex;
                 justify-content: center;
                 align-self: center;
-                
                 img {
                     height: 60px;
                     width: 100%;
@@ -172,7 +168,6 @@
                 }
             }
         }
-
         .owl-carousel .owl-nav button.owl-prev {
             content: "\e903";
             color: #000000;
@@ -256,15 +251,13 @@
         }
     }
     
-    @media (max-width: 768px) {
-        
+    @media (max-width: 992px) {
         .shadow-bg {
             border: none;
             iframe {
                 border-radius: 0!important;
             }
         }
-
         .company {
             .owl-item {
                 .item {
@@ -274,6 +267,15 @@
                         height: 35px;
                     }
                 }
+            }
+            .img-style {
+                width: 60px;
+            }
+            .block-bg {
+                background-color: $white;
+                box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.02)!important;
+                border-radius: 21px;
+                padding: 25px 20px;
             }
         }
     }
@@ -354,12 +356,6 @@
                 height: 30px;
             }
         }
-        .block-bg {
-            background-color: $white;
-            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.02)!important;
-            border-radius: 21px;
-            padding: 25px 20px;
-        }
         .company {
             background: transparent;
             .company-block {
@@ -385,7 +381,7 @@
         }
     }
     
-    @media (min-width: 1200px) and (max-width: 1900px) {
+    @media (min-width: 1200px) and (max-width: 1899px) {
         h1 {
             font-size: 56px!important;
         }
@@ -394,7 +390,7 @@
         }
     }
     
-    @media (min-width: 1901px) {
+    @media (min-width: 1900px) {
         .container {
             max-width: 1642px;
         }
