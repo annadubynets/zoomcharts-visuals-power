@@ -147,7 +147,8 @@ a {
 
 .navbar {
   padding: 30px 0;
-  background-color: #FCFCFC;
+  background-color: #FFFFFF;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.04) !important;
 }
 .navbar .navbar-brand-img {
   height: 50px;
@@ -390,6 +391,10 @@ input {
   .form-control {
     font-size: 16px !important;
     width: 100%;
+  }
+
+  .hero {
+    background-color: #FCFCFC;
   }
 
   .shadow-bg {
