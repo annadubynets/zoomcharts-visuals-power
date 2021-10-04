@@ -190,11 +190,7 @@
             }
         }
         .social-link {
-            width: 35px;
-            height: 35px;
-            background-color: $black;
-            color: $white;
-            border-radius: 50px;
+            font-size: 35px;
             margin: 0 9px;
             display: flex;
             justify-content: center;
@@ -204,12 +200,10 @@
                 margin-right: 0;
             }
             &:focus {
-                background-color: $black;
-                color: $white;
+                color: $black;
             }
             &:hover {
-                background-color: rgba(0, 0, 0, 0.5);
-                color: $white;
+                color: rgba(0, 0, 0, 0.5);
             }
         }
     }
@@ -237,6 +231,9 @@
         .form-control {
             font-size: 16px!important;
             width: 100%;
+        }
+        .shadow-bg {
+            border: none;
         }
         .pt-110px {
             padding-top: 50px;

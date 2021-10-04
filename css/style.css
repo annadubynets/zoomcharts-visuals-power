@@ -319,11 +319,7 @@ input {
   color: #7F7F7F;
 }
 .footer .social-link {
-  width: 35px;
-  height: 35px;
-  background-color: #000000;
-  color: #FFFFFF;
-  border-radius: 50px;
+  font-size: 35px;
   margin: 0 9px;
   display: flex;
   justify-content: center;
@@ -334,12 +330,10 @@ input {
   margin-right: 0;
 }
 .footer .social-link:focus {
-  background-color: #000000;
-  color: #FFFFFF;
+  color: #000000;
 }
 .footer .social-link:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #FFFFFF;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1200px) {
@@ -371,6 +365,10 @@ input {
   .form-control {
     font-size: 16px !important;
     width: 100%;
+  }
+
+  .shadow-bg {
+    border: none;
   }
 
   .pt-110px {
