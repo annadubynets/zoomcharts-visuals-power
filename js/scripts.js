@@ -11,6 +11,11 @@ if ($('.company .owl-carousel').length > 0) {
                 stagePadding: 60,
                 nav: false
             },
+            768: {
+                items: 4,
+                stagePadding: 60,
+                nav: false
+            },
             1200: {
                 items: 6,
                 nav: true

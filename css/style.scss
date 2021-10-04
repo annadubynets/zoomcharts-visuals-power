@@ -53,11 +53,10 @@
         padding: 17px 50px;
         color: $white;
         background: linear-gradient(90deg, $mediumpurple 0%, $deepskyblue 100%);
-        border-radius: 36px;
+        border-radius: 30px;
         border: none;
         &:hover {
-            background: linear-gradient(90deg, $mediumpurple 0%, $deepskyblue 40%, #5db5f8 100%);
-            box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+            background: linear-gradient(90deg, rgba(191, 62, 254, .7), rgba(27, 158, 255, .7))
         }
     }
     
@@ -83,6 +82,7 @@
         border: 1px solid $black;
         border-radius: 30px;
         transition: all .4s;
+        width: 378px;
         &:focus {
             background-color: transparent;
             outline: none;
@@ -236,6 +236,7 @@
         }
         .form-control {
             font-size: 16px!important;
+            width: 100%;
         }
         .pt-110px {
             padding-top: 50px;
@@ -266,6 +267,12 @@
         }
         .font-size-24px {
             font-size: 22px!important;
+        }
+        .font-size-20px {
+            font-size: 14px!important;
+        }
+        .badge {
+            font-size: 12px!important;
         }
         .rounded-pill {
             border-radius: 15px!important;
@@ -304,6 +311,18 @@
         }
         .footer {
             background-color: $white!important;
+        }
+    }
+    
+    @media (min-width: 1200px) and (max-width: 1900px) {
+        h1 {
+            font-size: 56px!important;
+        }
+        .pb-135px {
+            padding-bottom: 55px;
+        }
+        .btn-primary {
+            padding: 17px 16px;
         }
     }
     

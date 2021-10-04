@@ -182,12 +182,11 @@ a {
   padding: 17px 50px;
   color: #FFFFFF;
   background: linear-gradient(90deg, #BF3EFE 0%, #1B9EFF 100%);
-  border-radius: 36px;
+  border-radius: 30px;
   border: none;
 }
 .btn-primary:hover {
-  background: linear-gradient(90deg, #BF3EFE 0%, #1B9EFF 40%, #5db5f8 100%);
-  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  background: linear-gradient(90deg, rgba(191, 62, 254, 0.7), rgba(27, 158, 255, 0.7));
 }
 
 .btn-primary.disabled,
@@ -212,6 +211,7 @@ a {
   border: 1px solid #000000;
   border-radius: 30px;
   transition: all 0.4s;
+  width: 378px;
 }
 .form-control:focus {
   background-color: transparent;
@@ -370,6 +370,7 @@ input {
 
   .form-control {
     font-size: 16px !important;
+    width: 100%;
   }
 
   .pt-110px {
@@ -410,6 +411,14 @@ input {
 
   .font-size-24px {
     font-size: 22px !important;
+  }
+
+  .font-size-20px {
+    font-size: 14px !important;
+  }
+
+  .badge {
+    font-size: 12px !important;
   }
 
   .rounded-pill {
@@ -453,6 +462,19 @@ input {
 
   .footer {
     background-color: #FFFFFF !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1900px) {
+  h1 {
+    font-size: 56px !important;
+  }
+
+  .pb-135px {
+    padding-bottom: 55px;
+  }
+
+  .btn-primary {
+    padding: 17px 16px;
   }
 }
 @media (min-width: 1920px) {
