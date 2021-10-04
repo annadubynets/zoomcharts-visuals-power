@@ -386,6 +386,10 @@ input {
   .shadow-bg iframe {
     border-radius: 0 !important;
   }
+
+  .img-style {
+    width: 60px;
+  }
 }
 @media (max-width: 1200px) {
   h1 {
@@ -525,7 +529,7 @@ input {
     background-color: #FFFFFF !important;
   }
 }
-@media (min-width: 1200px) and (max-width: 1900px) {
+@media (min-width: 1200px) and (max-width: 1899px) {
   h1 {
     font-size: 56px !important;
   }
@@ -534,7 +538,7 @@ input {
     padding-bottom: 100px;
   }
 }
-@media (min-width: 1901px) {
+@media (min-width: 1900px) {
   .container {
     max-width: 1642px;
   }
