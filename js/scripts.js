@@ -3,7 +3,7 @@ if ($('.company .owl-carousel').length > 0) {
         loop: true,
         margin: 30,
         responsiveClass: true,
-        autoplay: false,
+        autoplay: true,
         dots: false,
         responsive: {
             0: {
@@ -13,8 +13,7 @@ if ($('.company .owl-carousel').length > 0) {
             },
             1200: {
                 items: 6,
-                nav: true,
-                loop: false,
+                nav: true
             }
         }
     })
@@ -25,7 +24,7 @@ if ($('.testimonials .owl-carousel').length > 0) {
         loop: true,
         margin: 30,
         responsiveClass: true,
-        autoplay: false,
+        autoplay: true,
         dots: false,
         nav: false,
         responsive: {
@@ -35,8 +34,7 @@ if ($('.testimonials .owl-carousel').length > 0) {
             },
             1200: {
                 items: 2,
-                stagePadding: 300,
-                loop: false,
+                stagePadding: 300
             }
         }
     })
