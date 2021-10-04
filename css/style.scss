@@ -222,11 +222,10 @@
                 background: linear-gradient(70deg, $mediumpurple 0%, $deepskyblue 100%);
                 border-radius: 50px;
                 position: absolute;
-                bottom: 220px;
+                bottom: 280px;
                 right: 30px;
-                @media (max-width: 768px) {
-                    position: fixed;
-                    bottom: 280px;
+                @media (min-width: 768px) {
+                    display: none;
                 }
             }
         }

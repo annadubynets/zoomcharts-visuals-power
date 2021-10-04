@@ -350,13 +350,12 @@ input {
   background: linear-gradient(70deg, #BF3EFE 0%, #1B9EFF 100%);
   border-radius: 50px;
   position: absolute;
-  bottom: 220px;
+  bottom: 280px;
   right: 30px;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .footer .go-to-bottom:after {
-    position: fixed;
-    bottom: 280px;
+    display: none;
   }
 }
 
