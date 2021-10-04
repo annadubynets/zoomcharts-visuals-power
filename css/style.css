@@ -212,7 +212,6 @@ a {
   border: 1px solid #000000;
   border-radius: 30px;
   transition: all 0.4s;
-  width: 378px;
 }
 .form-control:focus {
   background-color: transparent;
@@ -381,10 +380,6 @@ input {
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
-  .form-control {
-    width: 100%;
-  }
-
   .shadow-bg {
     border: none;
   }
@@ -537,10 +532,6 @@ input {
 
   .pb-135px {
     padding-bottom: 100px;
-  }
-
-  .form-control {
-    width: 300px;
   }
 }
 @media (min-width: 1901px) {
