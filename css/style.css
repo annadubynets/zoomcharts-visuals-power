@@ -147,7 +147,8 @@ a {
 
 .navbar {
   padding: 30px 0;
-  background-color: #FCFCFC;
+  background-color: #FFFFFF;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.04) !important;
 }
 .navbar .navbar-brand-img {
   height: 50px;
@@ -379,6 +380,18 @@ input {
   }
 }
 
+@media (min-width: 320px) and (max-width: 768px) {
+  .form-control {
+    width: 100%;
+  }
+
+  .shadow-bg {
+    border: none;
+  }
+  .shadow-bg iframe {
+    border-radius: 0 !important;
+  }
+}
 @media (max-width: 1200px) {
   h1 {
     font-size: 50px !important;
@@ -407,11 +420,16 @@ input {
 
   .form-control {
     font-size: 16px !important;
-    width: 100%;
+    padding: 11px 20px;
   }
 
-  .shadow-bg {
-    border: none;
+  .btn-primary {
+    font-size: 16px !important;
+    padding: 12px 20px;
+  }
+
+  .hero {
+    background-color: #FCFCFC;
   }
 
   .pt-110px {
@@ -518,7 +536,7 @@ input {
   }
 
   .pb-135px {
-    padding-bottom: 55px;
+    padding-bottom: 100px;
   }
 
   .form-control {
