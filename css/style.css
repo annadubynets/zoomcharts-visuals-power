@@ -495,10 +495,6 @@ input {
   .pb-135px {
     padding-bottom: 55px;
   }
-
-  .btn-primary {
-    padding: 17px 16px;
-  }
 }
 @media (min-width: 1920px) {
   .container {
