@@ -149,6 +149,9 @@ a {
   padding: 30px 0;
   background-color: #FCFCFC;
 }
+.navbar .navbar-brand-img {
+  height: 50px;
+}
 
 .main-description {
   font-family: "Merriweather";
@@ -369,10 +372,6 @@ input {
     font-size: 16px !important;
   }
 
-  .navbar {
-    padding: 20px 0;
-  }
-
   .pt-110px {
     padding-top: 50px;
   }
@@ -415,6 +414,13 @@ input {
 
   .rounded-pill {
     border-radius: 15px !important;
+  }
+
+  .navbar {
+    padding: 20px 0;
+  }
+  .navbar .navbar-brand-img {
+    height: 30px;
   }
 
   .block-bg {

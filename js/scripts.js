@@ -7,7 +7,8 @@ if ($('.company .owl-carousel').length > 0) {
         dots: false,
         responsive: {
             0: {
-                items: 4,
+                items: 2,
+                stagePadding: 60,
                 nav: false
             },
             1200: {
