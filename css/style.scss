@@ -343,9 +343,12 @@
         .pb-135px {
             padding-bottom: 55px;
         }
+        .form-control {
+            width: 300px;
+        }
     }
     
-    @media (min-width: 1920px) {
+    @media (min-width: 1901px) {
         .container {
             max-width: 1642px;
         }
