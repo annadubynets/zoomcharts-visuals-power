@@ -277,8 +277,26 @@ input {
 .company {
   background: linear-gradient(to bottom, #F6F7FD 50%, #FCFCFC 50%);
 }
-.company .owl-carousel .owl-item img {
-  width: initial;
+.company .owl-stage {
+  display: flex;
+}
+.company .owl-item {
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: center;
+}
+.company .owl-item .item {
+  max-width: 100%;
+  max-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.company .owl-item .item img {
+  height: 60;
+  width: 100%;
+  max-height: 60px;
+  align-self: center;
 }
 .company .owl-carousel .owl-nav button.owl-prev {
   content: "";
@@ -469,6 +487,13 @@ input {
     background-color: transparent;
     box-shadow: none !important;
     padding: 60px 0 0;
+  }
+  .company .owl-item .item {
+    max-height: 35px;
+  }
+  .company .owl-item .item img {
+    max-height: 35px;
+    height: 35px;
   }
 
   .list-items {

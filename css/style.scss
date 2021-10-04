@@ -147,9 +147,32 @@
     
     .company {
         background: linear-gradient(to bottom, $aliceblue 50%, $whitesmoke 50%);
-        .owl-carousel .owl-item img {
-            width: initial;
+        
+
+        .owl-stage {
+            display: flex;
         }
+        .owl-item {
+            display: flex;
+            flex: 1 0 auto;
+            justify-content: center;
+
+            .item {
+                max-width: 100%;
+                max-height: 60px;
+                display: flex;
+                justify-content: center;
+                align-self: center;
+                
+                img {
+                    height: 60;
+                    width: 100%;
+                    max-height: 60px;
+                    align-self: center;
+                }
+            }
+        }
+
         .owl-carousel .owl-nav button.owl-prev {
             content: "\e903";
             color: #000000;
@@ -317,6 +340,15 @@
                 background-color: transparent;
                 box-shadow: none!important;
                 padding: 60px 0 0;
+            }
+            .owl-item {
+                .item {
+                    max-height: 35px;
+                    img {
+                        max-height: 35px;
+                        height: 35px;
+                    }
+                }
             }
         }
         .list-items {
