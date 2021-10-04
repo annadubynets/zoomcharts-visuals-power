@@ -252,6 +252,25 @@
     }
     
     @media (max-width: 992px) {
+        h1 {
+            font-size: 50px!important;
+        }
+        h2 {
+            font-size: 25px!important;
+        }
+        h3 {
+            font-size: 25px!important;
+            margin-bottom: 24px;
+        }
+        p {
+            font-size: 16px!important;
+        }
+        .main-description {
+            font-size: 18px!important;
+        }
+        .subtitle {
+            font-size: 16px!important;
+        }
         .shadow-bg {
             border: none;
             iframe {
@@ -281,25 +300,6 @@
     }
     
     @media (max-width: 1200px) {
-        h1 {
-            font-size: 50px!important;
-        }
-        h2 {
-            font-size: 25px!important;
-        }
-        h3 {
-            font-size: 25px!important;
-            margin-bottom: 24px;
-        }
-        p {
-            font-size: 16px!important;
-        }
-        .main-description {
-            font-size: 18px!important;
-        }
-        .subtitle {
-            font-size: 16px!important;
-        }
         .form-control {
             font-size: 16px!important;
             padding: 11px 20px;
