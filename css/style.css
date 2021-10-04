@@ -449,7 +449,7 @@ input {
     background-color: #FFFFFF !important;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1920px) {
   .container {
     max-width: 1642px;
   }
