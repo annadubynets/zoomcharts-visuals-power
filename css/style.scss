@@ -165,7 +165,7 @@
                 align-self: center;
                 
                 img {
-                    height: 60;
+                    height: 60px;
                     width: 100%;
                     max-height: 60px;
                     align-self: center;
@@ -256,12 +256,24 @@
         }
     }
     
-    @media (min-width: 320px) and (max-width: 768px) {
+    @media (max-width: 768px) {
         
         .shadow-bg {
             border: none;
             iframe {
                 border-radius: 0!important;
+            }
+        }
+
+        .company {
+            .owl-item {
+                .item {
+                    max-height: 35px;
+                    img {
+                        max-height: 35px;
+                        height: 35px;
+                    }
+                }
             }
         }
     }
@@ -354,15 +366,6 @@
                 background-color: transparent;
                 box-shadow: none!important;
                 padding: 60px 0 0;
-            }
-            .owl-item {
-                .item {
-                    max-height: 35px;
-                    img {
-                        max-height: 35px;
-                        height: 35px;
-                    }
-                }
             }
         }
         .list-items {
