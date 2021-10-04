@@ -335,6 +335,30 @@ input {
 .footer .social-link:hover {
   color: rgba(0, 0, 0, 0.5);
 }
+.footer .go-to-bottom:after {
+  font-family: "icomoon";
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: linear-gradient(90deg, #BF3EFE 0%, #1B9EFF 100%);
+  border-radius: 50px;
+  position: absolute;
+  bottom: 220px;
+  right: 30px;
+}
+@media (max-width: 768px) {
+  .footer .go-to-bottom:after {
+    position: fixed;
+    bottom: 280px;
+  }
+}
 
 @media (max-width: 1200px) {
   h1 {

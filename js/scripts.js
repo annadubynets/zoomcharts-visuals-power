@@ -44,3 +44,20 @@ if ($('.testimonials .owl-carousel').length > 0) {
         }
     })
 }
+
+$(document).ready(function() {
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+            $('.go-to-bottom').fadeIn();
+        } else {
+            $('.go-to-bottom').fadeOut();
+        }
+    });
+    // scroll body to 0px on click
+    $('.go-to-bottom').click(function() {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 400);
+        return false;
+    });
+});
