@@ -366,6 +366,13 @@ input {
   .form-control {
     width: 100%;
   }
+
+  .shadow-bg {
+    border: none;
+  }
+  .shadow-bg iframe {
+    border-radius: 0 !important;
+  }
 }
 @media (max-width: 1200px) {
   h1 {
@@ -405,13 +412,6 @@ input {
 
   .hero {
     background-color: #FCFCFC;
-  }
-
-  .shadow-bg {
-    border: none;
-  }
-  .shadow-bg iframe {
-    border-radius: 0 !important;
   }
 
   .pt-110px {
@@ -511,7 +511,7 @@ input {
   }
 
   .pb-135px {
-    padding-bottom: 55px;
+    padding-bottom: 100px;
   }
 
   .form-control {

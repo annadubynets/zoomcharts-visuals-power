@@ -238,6 +238,12 @@
         .form-control {
             width: 100%;
         }
+        .shadow-bg {
+            border: none;
+            iframe {
+                border-radius: 0!important;
+            }
+        }
     }
     
     @media (max-width: 1200px) {
@@ -270,12 +276,6 @@
         }
         .hero {
             background-color: $whitesmoke;
-        }
-        .shadow-bg {
-            border: none;
-            iframe {
-                border-radius: 0!important;
-            }
         }
         .pt-110px {
             padding-top: 50px;
@@ -358,7 +358,7 @@
             font-size: 56px!important;
         }
         .pb-135px {
-            padding-bottom: 55px;
+            padding-bottom: 100px;
         }
         .form-control {
             width: 300px;
