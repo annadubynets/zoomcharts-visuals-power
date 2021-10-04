@@ -410,6 +410,9 @@ input {
   .shadow-bg {
     border: none;
   }
+  .shadow-bg iframe {
+    border-radius: 0 !important;
+  }
 
   .pt-110px {
     padding-top: 50px;

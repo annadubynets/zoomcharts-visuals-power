@@ -273,6 +273,9 @@
         }
         .shadow-bg {
             border: none;
+            iframe {
+                border-radius: 0!important;
+            }
         }
         .pt-110px {
             padding-top: 50px;
