@@ -11,18 +11,21 @@ $white: #FFFFFF;
 $whitesmoke: #FCFCFC;
 $grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px);
 h1 {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 74px;
     color: $black;
 }
 
 h2 {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 55px;
     color: $black;
 }
 
 h3 {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 50px;
     color: $black;
@@ -30,7 +33,7 @@ h3 {
 }
 
 p {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 20px;
     color: $black;
 }

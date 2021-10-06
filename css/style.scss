@@ -3,7 +3,7 @@
     @import "fonts.css";
     @import "variables";
     body {
-        font-family: 'Roboto';
+        font-family: 'Merriweather';
         background-color: $whitesmoke;
     }
     
@@ -25,30 +25,20 @@
         }
     }
     
-    .main-description {
-        font-family: 'Merriweather';
+    .subtitle {
         font-weight: 300;
-        font-size: 30px;
+        font-size: 25px;
         color: $black;
-        &.collapse:not(.show)~.shadow-decor {
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            height: 100px;
-            background: rgb(248, 249, 250);
-            background: linear-gradient(90deg, rgba(248, 249, 250, .5) 80%, rgba(252, 252, 252, 1) 100%);
-        }
     }
     
-    .subtitle {
-        font-family: 'Merriweather';
+    .main-description {
         font-weight: 300;
         font-size: 20px;
         color: $black;
     }
     
     .btn-primary {
+        font-family: 'Roboto';
         font-weight: 400;
         font-size: 20px;
         padding: 17px 50px;
@@ -75,6 +65,7 @@
     }
     
     .form-control {
+        font-family: 'Roboto';
         font-weight: 300;
         font-size: 20px;
         padding: 16px 25px;
@@ -121,12 +112,14 @@
     
     .hero {
         background-color: #F6F7FD;
+        .quote-logo {
+            width: 140px;
+        }
     }
     
     .list-items {
         padding-left: 4em;
         li {
-            font-family: 'Merriweather';
             font-weight: 300;
             font-size: 20px;
             color: $black;
@@ -198,16 +191,27 @@
         padding: 104px 0 200px;
     }
     
+    .testimonials {
+        font-family: 'Roboto';
+    }
+    
     .footer {
         background-color: #F1F3FF;
         padding: 63px 0;
         a {
+            font-family: 'Roboto';
             font-size: 18px;
             color: $black;
             &:focus,
             &:hover {
                 color: #7F7F7F;
             }
+        }
+        p {
+            font-family: 'Roboto';
+            font-weight: 400;
+            font-size: 18px;
+            color: $black;
         }
         .social-link {
             font-size: 35px;
@@ -265,8 +269,14 @@
         p {
             font-size: 16px!important;
         }
-        .main-description {
+        .font-size-25px {
+            font-size: 16px!important;
+        }
+        .font-size-30px {
             font-size: 18px!important;
+        }
+        .main-description {
+            font-size: 16px!important;
         }
         .subtitle {
             font-size: 16px!important;
@@ -277,7 +287,15 @@
                 border-radius: 0!important;
             }
         }
+        .hero {
+            .quote-logo {
+                width: 104px!important;
+            }
+        }
         .company {
+            .company-block {
+                padding: 0!important;
+            }
             .owl-item {
                 .item {
                     max-height: 35px;
@@ -286,6 +304,11 @@
                         height: 35px;
                     }
                 }
+            }
+        }
+        .list-items {
+            li {
+                font-size: 16px!important;
             }
         }
         .img-style {

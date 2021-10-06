@@ -3,18 +3,21 @@
 @import "./owl.carousel.min.css";
 @import "fonts.css";
 h1 {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 74px;
   color: #000000;
 }
 
 h2 {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 55px;
   color: #000000;
 }
 
 h3 {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 50px;
   color: #000000;
@@ -22,7 +25,7 @@ h3 {
 }
 
 p {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 20px;
   color: #000000;
 }
@@ -132,7 +135,7 @@ p {
 }
 
 body {
-  font-family: "Roboto";
+  font-family: "Merriweather";
   background-color: #FCFCFC;
 }
 
@@ -154,30 +157,20 @@ a {
   height: 50px;
 }
 
-.main-description {
-  font-family: "Merriweather";
+.subtitle {
   font-weight: 300;
-  font-size: 30px;
+  font-size: 25px;
   color: #000000;
 }
-.main-description.collapse:not(.show) ~ .shadow-decor {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100px;
-  background: #f8f9fa;
-  background: linear-gradient(90deg, rgba(248, 249, 250, 0.5) 80%, #fcfcfc 100%);
-}
 
-.subtitle {
-  font-family: "Merriweather";
+.main-description {
   font-weight: 300;
   font-size: 20px;
   color: #000000;
 }
 
 .btn-primary {
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 20px;
   padding: 17px 50px;
@@ -204,6 +197,7 @@ a {
 }
 
 .form-control {
+  font-family: "Roboto";
   font-weight: 300;
   font-size: 20px;
   padding: 16px 25px;
@@ -251,12 +245,14 @@ input {
 .hero {
   background-color: #F6F7FD;
 }
+.hero .quote-logo {
+  width: 140px;
+}
 
 .list-items {
   padding-left: 4em;
 }
 .list-items li {
-  font-family: "Merriweather";
   font-weight: 300;
   font-size: 20px;
   color: #000000;
@@ -327,16 +323,27 @@ input {
   padding: 104px 0 200px;
 }
 
+.testimonials {
+  font-family: "Roboto";
+}
+
 .footer {
   background-color: #F1F3FF;
   padding: 63px 0;
 }
 .footer a {
+  font-family: "Roboto";
   font-size: 18px;
   color: #000000;
 }
 .footer a:focus, .footer a:hover {
   color: #7F7F7F;
+}
+.footer p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
 }
 .footer .social-link {
   font-size: 35px;
@@ -397,8 +404,16 @@ input {
     font-size: 16px !important;
   }
 
-  .main-description {
+  .font-size-25px {
+    font-size: 16px !important;
+  }
+
+  .font-size-30px {
     font-size: 18px !important;
+  }
+
+  .main-description {
+    font-size: 16px !important;
   }
 
   .subtitle {
@@ -412,12 +427,23 @@ input {
     border-radius: 0 !important;
   }
 
+  .hero .quote-logo {
+    width: 104px !important;
+  }
+
+  .company .company-block {
+    padding: 0 !important;
+  }
   .company .owl-item .item {
     max-height: 35px;
   }
   .company .owl-item .item img {
     max-height: 35px;
     height: 35px;
+  }
+
+  .list-items li {
+    font-size: 16px !important;
   }
 
   .img-style {
