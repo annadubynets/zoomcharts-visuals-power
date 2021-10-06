@@ -327,6 +327,10 @@ input {
 .testimonials {
   font-family: "Roboto";
 }
+.testimonials .owl-carousel .item {
+  max-width: 666px;
+  width: 666px;
+}
 
 .footer {
   background-color: #F1F3FF;
@@ -444,6 +448,11 @@ input {
     height: 32px;
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .testimonials .owl-carousel .item {
+    max-width: 320px;
+    width: 320px;
   }
 
   .list-items li {

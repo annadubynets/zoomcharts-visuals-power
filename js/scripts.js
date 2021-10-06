@@ -32,13 +32,15 @@ if ($('.testimonials .owl-carousel').length > 0) {
         autoplay: true,
         dots: false,
         nav: false,
+        autoWidth: true,
         responsive: {
             0: {
                 items: 1,
                 stagePadding: 60,
+                margin: 20,
             },
             1200: {
-                items: 2,
+                items: 3,
                 stagePadding: 300
             }
         }
