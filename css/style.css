@@ -278,7 +278,6 @@ input {
 }
 .company .owl-item {
   display: flex;
-  flex: 1 0 auto;
   justify-content: center;
 }
 .company .owl-item .item {
@@ -293,6 +292,8 @@ input {
   width: 100%;
   max-height: 60px;
   align-self: center;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 .company .owl-carousel .owl-nav button.owl-prev {
   content: "";
@@ -436,11 +437,13 @@ input {
     padding: 0 !important;
   }
   .company .owl-item .item {
-    max-height: 35px;
+    max-height: 32px;
   }
   .company .owl-item .item img {
-    max-height: 35px;
-    height: 35px;
+    max-height: 32px;
+    height: 32px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .list-items li {

@@ -145,7 +145,6 @@
         }
         .owl-item {
             display: flex;
-            flex: 1 0 auto;
             justify-content: center;
             .item {
                 max-width: 100%;
@@ -158,6 +157,8 @@
                     width: 100%;
                     max-height: 60px;
                     align-self: center;
+                    margin-left: 35px;
+                    margin-right: 35px;
                 }
             }
         }
@@ -299,10 +300,12 @@
             }
             .owl-item {
                 .item {
-                    max-height: 35px;
+                    max-height: 32px;
                     img {
-                        max-height: 35px;
-                        height: 35px;
+                        max-height: 32px;
+                        height: 32px;
+                        margin-left: 20px;
+                        margin-right: 20px;
                     }
                 }
             }
