@@ -41,7 +41,7 @@ if ($('.testimonials .owl-carousel').length > 0) {
             },
             1200: {
                 items: 3,
-                stagePadding: 300
+                stagePadding: 100
             }
         }
     })
