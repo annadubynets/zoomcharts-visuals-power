@@ -517,6 +517,10 @@ input {
     padding-bottom: 57px;
   }
 
+  .pb-200px {
+    padding-bottom: 60px;
+  }
+
   .p-60px {
     padding: 30px;
   }
