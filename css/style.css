@@ -248,6 +248,14 @@ input {
 .hero .quote-logo {
   width: 140px;
 }
+.hero a {
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+.hero a:hover {
+  color: #585858;
+}
 
 .list-items {
   padding-left: 4em;
@@ -555,6 +563,10 @@ input {
     background-color: transparent;
     box-shadow: none !important;
     padding: 60px 0 0;
+  }
+
+  .hero a {
+    font-size: 14px !important;
   }
 
   .list-items {
